@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-family: 'Krone One', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto; 
+}
+
+.hero{
+    background: url(../images/pavel-fertikh-R1Wy2m3oFqQ-unsplash\ 1.jpg);
+    height: 1080px;
+}
+
+.header__content__burger{
+    margin-left:1700px;
+}
+.header__content{
+   color: #151515;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    position: relative;
+}
+.header__content__info-title{
+    color: #FFF;
+    text-align: center;
+    font-size: 96px;
+    text-transform: uppercase;
+    padding: 200px;
+}
+.header__content__info-btn{
+    color: #FFF;
+    text-transform: uppercase;
+    border: 3px solid #FFF;
+    background: rgba(255, 255, 255, 0.00);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 46px;
+}
+ .about{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+ }
+
+.about-info{
+    color: #FFF;
+}
+.about-info-title{
+    color: #151515;
+    font-size: 48px;
+    font-weight: 400;   
+    text-transform: uppercase;
+    display: flex;
+    justify-content: flex-start;
+}
+.about-image-wrap{
+    width: 956px;
+    height: 1081px;
+}
+.about-info-text{
+    color: #151515;
+}
+.gallery{
+    width: 2300px;
+    height: 2032px;
+    background: #151515;
+}
+.gallery-title{
+    color: #FFF;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    margin: 118px 1446px 102px 126px;
+    padding-top:118px;
+}
+.gallery__images{
+    display: grid;
+    grid-template-columns: 652px 616px 632px;
+    grid-template-rows: 411px 479px 360px;
+    gap: 10px;
+    object-fit: cover;
+}
+.gallery__images img{
+    width:100%;
+    height: 100%;
+}
+.gallry__images__wrap5{
+    grid-column: 2/4;
+}
+.gallry__images__wrap6{
+    height: 715px;
+}
+.gallry__images__wrap8{
+    height: 715px;
+}
+.gallry__images__wrap7{
+    height: 715px;
+}
